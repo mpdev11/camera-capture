@@ -1,18 +1,19 @@
-Video Capture
+# Video Capture
+
 **Short Description:**
 
 > A single-page React app that uses the user’s camera (WebRTC) to display a live video preview and capture a timed snapshot. It can also be configured to take snapshot manually.
 
 ---
 
-## STACK / TECH USED
+## Stack
 
 - Frontend: React
 - Build Tool: Vite
 
 ---
 
-## SETUP
+## Setup
 
 **Prerequisites:**
 
@@ -31,3 +32,15 @@ npm run dev
 # 3. Open in browser
 # Usually at http://localhost:5173 or as per your setup
 ```
+
+---
+
+## Features / Functionality
+
+- Implements all required features from the assignment:
+
+  - Single-page layout with instructions, live video preview, and captured snapshot.
+  - Automatic snapshot taken after a countdown.
+
+- **Additional feature (not in the requirements):**
+  - Manual snapshot mode can be enabled in the code (via prop to a feature entry), allowing the user to take the snapshot at any time instead of waiting for the automatic countdown.
