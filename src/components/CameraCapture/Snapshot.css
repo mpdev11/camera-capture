@@ -1,0 +1,15 @@
+.snapshot {
+  margin-top: 3rem;
+}
+.snapshot__container {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-color: #000;
+  max-width: 100%;
+}
+
+.snapshot__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
