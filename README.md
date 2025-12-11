@@ -4,6 +4,11 @@
 
 > A single-page React app that uses the user’s camera (WebRTC) to display a live video preview and capture a timed snapshot. It can also be configured to take snapshot manually.
 
+**Demo Video:**
+
+A short video demonstrating the app’s functionality is included in the `demo/` directory of this repository:  
+[demo/demo.mp4](./demo/demo.mp4)
+
 ---
 
 ## Stack
