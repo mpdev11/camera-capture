@@ -1,17 +1,14 @@
-# Project Title
-
+Video Capture
 **Short Description:**
 
-> [Insert a brief one-liner about what the project does]
+> A single-page React app that uses the user’s camera (WebRTC) to display a live video preview and capture a timed snapshot. It can also be configured to take snapshot manually.
 
 ---
 
 ## STACK / TECH USED
 
-- Frontend: [e.g., React, Vite]
-- Styling: [e.g., CSS, Tailwind]
-- State Management: [e.g., useState, Context API]
-- Additional Libraries: [e.g., PropTypes, date-fns, etc.]
+- Frontend: React
+- Build Tool: Vite
 
 ---
 
@@ -19,8 +16,8 @@
 
 **Prerequisites:**
 
-- Node.js version: [insert version]
-- npm / yarn: [insert version]
+- Node.js version: 22.13.0
+- npm / yarn: 10.9.2
 
 **Steps to run locally:**
 
@@ -32,5 +29,5 @@ npm install
 npm run dev
 
 # 3. Open in browser
-# Usually at http://localhost:3000 or as per your setup
+# Usually at http://localhost:5173 or as per your setup
 ```
