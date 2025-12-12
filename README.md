@@ -23,11 +23,15 @@ A short video demonstrating the app’s functionality is included in the `demo/`
 **Prerequisites:**
 
 - Node.js version: 22.13.0
-- npm / yarn: 10.9.2
+- npm: 10.9.2
 
 **Steps to run locally:**
 
 ```bash
+# 0. (Optional) Use the correct Node version
+# If you have nvm installed, this will automatically switch to the version in .nvmrc
+nvm use
+
 # 1. Install dependencies
 npm install
 
@@ -48,4 +52,5 @@ npm run dev
   - Automatic snapshot taken after a countdown.
 
 - **Additional feature (not in the requirements):**
-  - Manual snapshot mode can be enabled in the code (via prop to a feature entry), allowing the user to take the snapshot at any time instead of waiting for the automatic countdown.
+  - Manual snapshot mode can be enabled in the code (via prop to a feature entry), allowing user to take the snapshot at any time instead of waiting for the automatic countdown.
+  - The countdown is displayed in the top-right corner of the video container to avoid obstructing the user's view and provide clear feedback during auto-capture.
