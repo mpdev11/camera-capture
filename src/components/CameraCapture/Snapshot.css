@@ -1,10 +1,11 @@
 .snapshot {
   margin-top: 3rem;
 }
+
 .snapshot__container {
   width: 100%;
   aspect-ratio: 4 / 3;
-  background-color: #000;
+  background-color: #2a2a2a;
   max-width: 100%;
 }
 

@@ -61,6 +61,7 @@ function VideoPreview({ onSnapshot, captureMode }) {
       <button className="video-preview__start-camera-button" onClick={startCamera} disabled={cameraAccessGranted || error || success}>
         START
       </button>
+      <h2>Video:</h2>
       <div className="video-preview__video-container">
         <video className="video-preview__video" ref={videoRef} autoPlay muted playsInline style={{ display: cameraAccessGranted ? 'block' : 'none' }} />
         {countdownActive && <Countdown className="video-preview__countdown" seconds={captureMode.delay} onCountdownEnd={takeSnapshot} />}

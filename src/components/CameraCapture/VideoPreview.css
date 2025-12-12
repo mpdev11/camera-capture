@@ -1,7 +1,7 @@
 .video-preview__video-container {
   width: 100%;
   aspect-ratio: 4 / 3;
-  background-color: #000;
+  background-color: #2a2a2a;
   max-width: 100%;
   position: relative;
 }
@@ -19,7 +19,7 @@
   background-color: #fff;
   color: black;
   border: 1px solid black;
-  padding: 0.675rem;
+  padding: 0.175rem;
 }
 
 .video-preview__start-camera-button,
@@ -28,17 +28,16 @@
   border-radius: 6px;
   font-size: 1rem;
   font-weight: 600;
-  background-color: #4caf50; /* green */
+  background-color: #4caf50;
   color: #fff;
   border: none;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
-  margin-bottom: 1rem;
 }
 
 .video-preview__start-camera-button:hover,
 .video-preview__snapshot-button:hover {
-  background-color: #43a047; /* slightly darker green */
+  background-color: #43a047;
 }
 
 .video-preview__start-camera-button:active,
@@ -48,13 +47,8 @@
 
 .video-preview__start-camera-button:disabled,
 .video-preview__snapshot-button:disabled {
-  background-color: #000;
-  cursor: not-allowed;
   opacity: 0.4;
-}
-
-.video-preview__start-camera-button {
-  
+  pointer-events: none;
 }
 
 .video-preview__snapshot-button {
@@ -81,13 +75,11 @@
 
 .video-preview__success {
   background: #e6f4ea;
-  border-left-color: #34a853;
   color: #0b6b2e;  
 }
 
 .video-preview__error {
   background: #fce8e6;
-  border-left-color: #d93025;
   color: #a50e0e;    
 }
 

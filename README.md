@@ -28,7 +28,6 @@ A short video demonstrating the app’s functionality is included in the `demo/`
 **Steps to run locally:**
 
 ```bash
-# 0. (Optional) Use the correct Node version
 # If you have nvm installed, this will automatically switch to the version in .nvmrc
 nvm use
 
