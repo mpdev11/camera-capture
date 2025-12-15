@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="app">
       <h1>Video Capture</h1>
-      <CameraCaptureFlow />
+      <CameraCaptureFlow captureMode={{ type: 'manual' }} />
     </div>
   );
 }
