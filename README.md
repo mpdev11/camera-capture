@@ -9,6 +9,8 @@
 A short video demonstrating the app’s functionality is included in the `demo/` directory of this repository:  
 [demo/demo.mp4](./demo/demo.mp4)
 
+> **Note:** The browser’s camera-permission dialog is _not visible in the recording_. Modern browsers block permission prompts from appearing in screen captures for security and privacy reasons.
+
 ---
 
 ## Stack
