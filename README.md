@@ -30,7 +30,7 @@ A short video demonstrating the app’s functionality is included in the `demo/`
 **Steps to run locally:**
 
 ```bash
-F# If you have nvm installed, this will automatically switch to the version in .nvmrc
+# If you have nvm installed, this will automatically switch to the version in .nvmrc
 nvm use
 
 # 1. Install dependencies
