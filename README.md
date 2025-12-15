@@ -28,7 +28,7 @@ A short video demonstrating the app’s functionality is included in the `demo/`
 **Steps to run locally:**
 
 ```bash
-# If you have nvm installed, this will automatically switch to the version in .nvmrc
+F# If you have nvm installed, this will automatically switch to the version in .nvmrc
 nvm use
 
 # 1. Install dependencies
@@ -50,6 +50,6 @@ npm run dev
   - Single-page layout with instructions, live video preview, and captured snapshot.
   - Automatic snapshot taken after a countdown.
 
-- **Additional feature (not in the requirements):**
+- **Additional features (not in the requirements):**
   - Manual snapshot mode can be enabled in the code (via prop to a feature entry), allowing user to take the snapshot at any time instead of waiting for the automatic countdown.
   - The countdown is displayed in the top-right corner of the video container to avoid obstructing the user's view and provide clear feedback during auto-capture.
