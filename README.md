@@ -24,7 +24,7 @@ A short video demonstrating the app’s functionality is included in the `demo/`
 
 **Prerequisites:**
 
-- Node.js version: 22.13.0
+- Node.js: 22.13.0
 - npm: 10.9.2
 
 **Steps to run locally:**
